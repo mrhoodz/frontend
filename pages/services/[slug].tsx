@@ -6,7 +6,7 @@ import { Pictures } from "./pictures";
 import axios from "axios";
 import { useRouter } from "next/router";
 
-export default function index({ data }: any) {
+export default function Index({ data }: any) {
   const router = useRouter();
   const { slug } = router.query;
 

@@ -33,7 +33,12 @@ export default function Valuecards({ data }: any) {
               <p className={style.p}>{item.p}</p>
             </div>
             <div className={style.icon}>
-              <img alt="Logo holder" src={`/resized/svg/${item.icon}`} />
+              <Image
+                height={82}
+                width={82}
+                alt="Logo holder"
+                src={`/resized/svg/${item.icon}`}
+              />
             </div>
           </span>
         ))}

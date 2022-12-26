@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./style.module.scss";
+import Image from "next/image";
 
 export function Vision({}) {
   return (
@@ -11,11 +12,13 @@ export function Vision({}) {
           Our mission is to deliver personalized customer attention and
           efficiency while providing top-quality engineering services. We are
           committed to excellence in everything we do and strive to exceed our
-          customers' expectations.
+          customers&apos;  expectations.
         </p>
 
         <div className={`hero ${style.img}`} id="img">
-          <img
+          <Image
+          width={1920}
+          height={1080}
             className={` ${style.heroimg}`}
             src="/resized/pexels-kateryna-babaieva-2760241 (Large).jpg"
             alt="hero image"
@@ -35,7 +38,10 @@ export function Vision({}) {
         </p>
 
         <div className={`hero ${style.img}`} id="img">
-          <img
+          <Image
+                    width={1920}
+                    height={1080}
+          
             className={` ${style.heroimg}`}
             src="/resized/pexels-pixabay-259984 (Large).jpg"
             alt="hero image"

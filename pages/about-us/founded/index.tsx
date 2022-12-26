@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./style.module.scss";
+import Image from "next/image";
 
 export function Founded({}) {
   return (
@@ -28,7 +29,9 @@ export function Founded({}) {
         to delivering top-quality results.
       </p>
       <div className={`hero-bigger`} id="img">
-        <img
+        <Image
+        width={1920}
+        height={1080}
           className={"heroimg"}
           src="/resized/pexels-kateryna-babaieva-2760241 (Large).jpg"
           alt="hero image"

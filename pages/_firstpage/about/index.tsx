@@ -1,6 +1,7 @@
 import Valuecards from "./valueCards";
 import React from "react";
 import styles from "./style.module.scss";
+import Image from "next/image";
 
 export default function About({}) {
   interface valueProps {
@@ -54,9 +55,11 @@ export default function About({}) {
       <Valuecards data={data} />
 
       <div className={styles.hero} id="img">
-        <img
+        <Image
           className={styles.heroimg}
           src="/resized/pexels-kateryna-babaieva-2760241 (Large).jpg"
+          height={1080}
+          width={1620}
           alt="hero image"
         />
       </div>
