@@ -15,7 +15,7 @@ export default function Vision({}) {
 
       <div className={style.overlay}>over</div>
 
-      <h2 className={style.h2}>"PROFIT, FOR A BETTER FUTURE"</h2>
+      <h2 className={style.h2}>&apos;PROFIT, FOR A BETTER FUTURE&apos;</h2>
       <p className={style.p}>Lot Mucavele/ Director</p>
     </article>
   );

@@ -24,7 +24,7 @@ export function Founded({}) {
         At 5 Star Engineering Solutions, we were founded on a passion for
         engineering and a desire to make a difference in the world. From day
         one, we have been driven by a commitment to excellence and a desire to
-        exceed our customers' expectations. Our team is made up of highly
+        exceed our customers&apos; expectations. Our team is made up of highly
         skilled professionals who are passionate about their work and dedicated
         to delivering top-quality results.
       </p>
