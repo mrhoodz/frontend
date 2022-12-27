@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 // import { Inter } from "@next/font/google";
-import styles from "./style.module.scss";
-import Prime from "./_firstpage";
+// import styles from "./style.module.scss";
+import Prime from "../_firstpage";
 // const inter = Inter({ subsets: ["latin"] });
 import axios from "axios";
-import { GraphQLClient, gql } from "graphql-request";
+// import { GraphQLClient, gql } from "graphql-request";
 
 export default function Home({ data }: any) {
   return (
@@ -22,11 +22,7 @@ export default function Home({ data }: any) {
   );
 }
 
-
-
 export async function getServerSideProps(context: any) {
-
-
   const x = await axios.post("http://localhost:3000/api/postTest", {
     slug: "barricades",
   });
