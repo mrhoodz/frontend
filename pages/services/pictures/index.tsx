@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
-import { ImageContainer } from "./imageContainer";
-import { Sidebar } from "./sidebar";
+import  ImageContainer  from "./imageContainer";
+import Sidebar  from "./sidebar";
 
 export default function Pictures({data , dataAll}: any) {
   interface sideProps {

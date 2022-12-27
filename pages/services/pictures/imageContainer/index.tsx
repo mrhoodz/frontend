@@ -2,7 +2,7 @@ import React from "react";
 import ImageItem from "./imageItem";
 import style from "./style.module.scss";
 
-export function ImageContainer({data}: any) {
+export default function ImageContainer({data}: any) {
   interface imageDataProps {
     id: number;
     src: string;

@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.module.scss";
-import { Tasks } from "./tasks";
+import  Tasks from "./tasks";
 
 export default function Land({ data }: any) {
   // console.log(data)

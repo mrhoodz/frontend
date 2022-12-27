@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./style.module.scss";
-import { LinksArea } from "./linksArea";
+import LinksArea from "./linksArea";
 
-export function Sidebar({ dataAll }: any) {
+export default function Sidebar({ dataAll }: any) {
   // console.log(data)
   return (
     <aside className={style.sidebar}>

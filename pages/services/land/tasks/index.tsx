@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
 
-export function Tasks({ data }: any) {
+export default function Tasks({ data }: any) {
   // console.log(data)
   interface taskProps {
     id: number;

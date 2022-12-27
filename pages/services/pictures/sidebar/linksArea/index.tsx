@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export function LinksArea({ dataAll }: any) {
+export default function LinksArea({ dataAll }: any) {
   interface sideProps {
     id: number;
     link: string;
