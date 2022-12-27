@@ -1,8 +1,8 @@
 // import { Index } from './index';
 import Head from "next/head";
 import React from "react";
-import { Land } from "./land";
-import { Pictures } from "./pictures";
+import  Land  from "./land";
+import  Pictures  from "./pictures";
 import axios from "axios";
 
 export default function index({ data }: any) {
