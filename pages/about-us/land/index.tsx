@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./style.module.scss";
 
-export function Land({}) {
+export default function Land({}) {
   return (
     <article className={style.article} id="article">
       <div className={style.overlay}>ve</div>

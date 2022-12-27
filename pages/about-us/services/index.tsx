@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 import ServiceCards from "./servicecards";
 // import { fetcher } from "../../../lib/api";
 
-export function Services({}) {
+export default function Services({}) {
   interface serviceCardsProps {
     id: number;
     p: string;

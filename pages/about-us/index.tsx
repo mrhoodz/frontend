@@ -1,11 +1,11 @@
 // import { Index } from './index';
 import Head from "next/head";
 import React from "react";
-import { Land } from "./land";
-import { About } from "./about";
-import { Services } from "./services";
-import { Founded } from "./founded";
-import { Vision } from "./vision";
+import  Land  from "./land";
+import  About  from "./about";
+import Services  from "./services";
+import Founded  from "./founded";
+import  Vision  from "./vision";
 // import Services from "./services";
 
 export default function index() {

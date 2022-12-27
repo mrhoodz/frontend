@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 import Valuecards from "./valueCards";
 import Image from "next/image";
 
-export function About({}) {
+export default function About({}) {
   interface valueProps {
     id: number;
     h3: string;

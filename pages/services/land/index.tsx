@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.scss";
 import { Tasks } from "./tasks";
 
-export function Land({ data }: any) {
+export default function Land({ data }: any) {
   // console.log(data)
   interface taskProps {
     id: number;

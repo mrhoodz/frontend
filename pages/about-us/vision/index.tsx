@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.scss";
 import Image from "next/image";
 
-export function Vision({}) {
+export default function Vision({}) {
   return (
     <article className={style.article} id="mission-vision">
       <aside className={style.aside} id="mission-statement">

@@ -3,7 +3,7 @@ import style from "./style.module.scss";
 import { ImageContainer } from "./imageContainer";
 import { Sidebar } from "./sidebar";
 
-export function Pictures({data , dataAll}: any) {
+export default function Pictures({data , dataAll}: any) {
   interface sideProps {
     id: number;
     link: string;

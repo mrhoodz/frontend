@@ -2,7 +2,7 @@ import React from "react";
 import style from "./style.module.scss";
 import Image from "next/image";
 
-export function Founded({}) {
+export default function Founded({}) {
   return (
     <article className={style.article} id="founded">
       {/* assd */}
